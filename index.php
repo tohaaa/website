@@ -79,7 +79,6 @@
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 
                                 <li><a target="_blank" href="#"><i class="fa fa-skype"></i></a></li>
-
                             </ul>
                         </div>
                         <div class="small-10 medium-6 large-6  foto columns end"></div>
@@ -115,7 +114,6 @@
                         <div class="small-12 medium-6 large-6 columns img-webdes ">
                             <div class="info-des hvr-underline-from-left ">
                                 <h1>Front-End Dev. <i class="fa fa-code" aria-hidden="true"></i></h1>
-
                                 <p>I like coding my own designs. I implement using HTML, CSS and basic Javascript. Recently, I'm using frameworks like Bootstrap and Foundation.</p>
                             </div>
                             <div class="ul-skills large-12">
@@ -166,7 +164,8 @@
                                 <input type="submit" name="submit" value="SEND" id="button-blue"/>
                                 <div class="ease"></div>
                             </div>
-                        </form> <?php
+                        </form> 
+                        <?php
                         } else {
                              $name = $_POST['name'];
                             $email = $_POST['email'];
@@ -180,7 +179,7 @@
                             $name = trim($name);
                             $email = trim($email);
                             $text = trim($text);
-                            if (mail("artem@artemtkachuk.codes", "Message from Website", "Nome: ".$name.". \n\nE-mail: ".$email.". \n\nMensagem: ".$text ,"From: ".$email." \r\n")){ 
+                            if (mail("artemtkachuk1996@gmail.com", "Message from Website", "Nome: ".$name.". \n\nE-mail: ".$email.". \n\nMensagem: ".$text ,"From: ".$email." \r\n")){ 
                                 echo "Success"; 
                             } else { 
                                 echo "ERROR";

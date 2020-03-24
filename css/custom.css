@@ -7,19 +7,19 @@ body {
     
     box-shadow: 0 4px 2px -2px gray;
        /*background: url(../img/bgsec2.jpg) no-repeat fixed top;*/
- background: #fff;
+ background: #ddd;
 
 }
 
 .section2 {
     /*background: url(../img/bgsec2.jpg) no-repeat fixed top;*/
- background: #fff;
+ background: #ddd;
 
 }
 
 .section3 {
     /*background: url(../img/bgsec2.jpg) no-repeat fixed top;*/
- background: #fff;
+ background: #ddd;
 }
 
 .section4 {
@@ -38,8 +38,7 @@ ul {
 .infoblock h1, .infoblock h2,.infoblock p{text-align:justify;color:#0e0e0e;font-family:Lato,sans-serif}#reset, .infoblock h1,.infoblock h2,.infoblock p{font-family:Lato,sans-serif}#reset,img{position:absolute} .infoblock h1, .infoblock h2{animation:1.4s ease-in-out fadeInDown;text-transform:uppercase;opacity:.9}@keyframes fadeInDown{from{opacity:0;transform:translate3d(0,-100%,0)}to{opacity:1;transform:none}}@keyframes fadeInUp{from{opacity:0;transform:translate3d(0,100%,0)}to{opacity:1;transform:none}}@keyframes fadeInRightBig{from{opacity:0;transform:translate3d(2000px,0,0)}to{opacity:1;transform:none}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}.fadeIn{animation-name:fadeIn}.fadeInRightBig{animation-name:fadeInRightBig}.fadeInUp{animation-name:fadeInUp}.fadeInDown{animation-name:fadeInDown}.infoblock p{animation:1.4s ease-in-out fadeInDown}.infoblock span{color:#00f;padding:0 5px;transition:all .3s}.infoblock span:hover{color:#ff0;cursor:pointer;background:#663399;border-radius:10px;transition:all .3s}.infofoto{margin-top:55px;cursor:move}#reset,#reset:hover:before{text-transform:uppercase;cursor:pointer}#reset{text-align:center;font-size:29px;padding-top:80px;color:#fff;text-decoration:none;width:170px;height:170px;animation:5s ease-in-out fadeIn}#reset:hover:before,.social li a:hover{opacity:1;outline:0!important;text-decoration:none!important}#reset:hover span{display:none}#reset:hover:before{content:"Click Me";color:#fff!important;text-shadow:0 0 1ex #fff,0 0 4px #fff;animation:.5s ease-in-out fadeInRightBig}.social{animation:1.4s ease-out fadeInUp;margin:24px 0;padding:0;font-size:24px;text-shadow:0 1px 2px rgba(0,0,0,.8)}.social li{display:inline-block;margin:0 15px;padding:0}.social li a{color:#0e0e0e}.social li a:hover{color:#3498db!important;text-shadow:0 0 1ex #fff,0 0 4px #fff}.img1{z-index:3;margin:-15px;animation:1.4s ease-in-out fadeInRightBig}.img2{z-index:2;animation:1.6s ease-in-out fadeInRightBig}.img3{margin:15px;z-index:1;animation:1.8s ease-in-out fadeInRightBig}
 
 .foto{
-    
-        height: 400px;
+     height: 400px;
     -moz-transition: 0.4s;
     -o-transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -47,7 +46,7 @@ ul {
     background: url(../img/bg4.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position:center center;
+    background-position: center center;
 }
 
 
@@ -58,17 +57,13 @@ ul {
 
 /*SECTION 2--------------------------------------*/
 
-
-.skills{
-    margin-top: -250px;
-}
-
+ 
 
 .img-webdes {
     position: relative;
     margin-top: 50px;
     width: 500px;
-    height: 300px;
+ 
 }
 .img-webdes img {
     position: absolute;
@@ -147,24 +142,18 @@ ul {
 }
 
 
-
-
-
-
-
 .ul-skills ul {
-
     list-style: none;
 }
 .ul-skills ul li{
     padding: 4px 0px;
-    border-bottom: 1px solid ;
+    border-bottom: 1px solid;
     margin-bottom: 6px;
     cursor: default;
-    font-family:Lato,sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-shadow: 0 1px 2px rgba(0,0,0,.8);
+
+    font-weight: normal;
+    font-family: Lato,sans-serif;
+    font-size: 17px;
 }
 
 
