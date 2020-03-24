@@ -53,9 +53,7 @@
     </head>
 
     <body>
-
-
-        <div id="pagepiling">
+         <div id="pagepiling">
             <div  class="sidenav">
                 <ul id="mySidenav">
                     <li  data-menuanchor="Section1" class="active"><a href="#section1">HOME</a></li>
@@ -135,15 +133,13 @@
                     </div>
                 </div>   
             </div>   
-
-
             <div id="section3" class="section3">
                 <h1>Get In Touch</h1>
                 <div id="form-main">
                     <div id="form-div" class="large-4 large-offset-2 columns">
                         <?php
 
-                        //if(!isset($_POST['name']) and !isset($_POST['email']) and !isset($_POST['text'])){
+                         if(!isset($_POST['name']) and !isset($_POST['email']) and !isset($_POST['text'])){
                         ?> 
                         <form action="index.php" method="post" class="form" id="form1">
 
@@ -171,8 +167,8 @@
                                 <div class="ease"></div>
                             </div>
                         </form> <?php
-                       // } else {
-                            /*$name = $_POST['name'];
+                        } else {
+                             $name = $_POST['name'];
                             $email = $_POST['email'];
                             $text = $_POST['text'];
                             $name = htmlspecialchars($name);
@@ -184,36 +180,14 @@
                             $name = trim($name);
                             $email = trim($email);
                             $text = trim($text);
-                            if (mail("artemtkachuk1996@gmail.com", "Message from Website", "Nome: ".$name.". \n\nE-mail: ".$email.". \n\nMensagem: ".$text ,"From: ".$email." \r\n")){ 
+                            if (mail("artem@artemtkachuk.codes", "Message from Website", "Nome: ".$name.". \n\nE-mail: ".$email.". \n\nMensagem: ".$text ,"From: ".$email." \r\n")){ 
                                 echo "Success"; 
                             } else { 
                                 echo "ERROR";
-                            }*/
+                            } 
 							 
-                       // }
+                        }
 				 
-						if(isset($_POST['submit'])){
-							$to = "artemtkachuk1996@gmail.com"; // this is your Email address
-							$from = $_POST['email']; // this is the sender's Email address
-							$name = $_POST['name'];
-							 
-							$subject = "Form submission";
-							$subject2 = "Copy of your form submission";
-							$text = $name . "  wrote the following:" . "\n\n" . $_POST['text'];
-							$message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['text'];
-
-							$headers = "From:" . $from;
-							$headers2 = "From:" . $to;
-							mail($to,$subject,$text,$headers);
-							mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-							echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
-							// You can also use header('Location: thank_you.php'); to redirect to another page.
-							}
-						 
-
-					   
-					   
-					   
                         ?>
                     </div>
                     <div id="form-div2"  class="large-4  columns">
